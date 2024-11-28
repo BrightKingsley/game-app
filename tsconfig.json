@@ -1,0 +1,41 @@
+{
+  "extends": "expo/tsconfig.base",
+  "include": [
+    "./**/*.tsx",
+    "./**/*.ts",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts",
+    "metro.config.js",
+    "babel.config.js",
+    "src/components/feature/Order/PlacesAutoComplete/GoogleAutocomplete.jsx",
+    "../transit-rider/src/components/feature/Auth/SelectUserType.tsx"
+  ],
+  "compilerOptions": {
+    "strict": true,
+    "jsx": "react-jsx",
+    "module": "esnext",
+    "types": [
+      "node",
+    ],
+    "paths": {
+      "$/*": [
+        "./*"
+      ],
+      "#/*": [
+        "./src/*"
+      ],
+      "lib/*": [
+        "./src/lib/*"
+      ],
+      "platform/*": [
+        "./src/platform/*"
+      ],
+      "state/*": [
+        "./src/state/*"
+      ],
+      "view/*": [
+        "./src/view/*"
+      ]
+    }
+  }
+}

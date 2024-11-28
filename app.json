@@ -1,0 +1,105 @@
+{
+  "expo": {
+    "name": "Game App",
+    "slug": "game-app",
+    "scheme": "game-app",
+    "version": "1.0.2",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFC200"
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "config": {
+        "googleMapsApiKey": "AIzaSyBFfImYMw4uHbtiHQwCJVFD6IusEUtzVZI"
+      },
+      "infoPlist": {
+        "LSApplicationQueriesSchemes": ["game-app"],
+        "ExpoLocalization_supportsRTL": true,
+        "UIBackgroundModes": ["location", "fetch", "remote-notification"],
+        "NSLocationWhenInUseUsageDescription": "This app requires access to your location when open.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "This app requires access to your location even when closed.",
+        "NSLocationAlwaysUsageDescription": "This app requires access to your location when open.",
+        "deploymentTarget": "14"
+      }
+    },
+    "android": {
+      "versionCode": 2,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFC200",
+        "softwareKeyboardLayoutMode": "pan"
+      },
+      "softwareKeyboardLayoutMode": "pan",
+      "package": "com.brightkingsley.transit",
+      "permissions": [
+        "android.permission.RECEIVE_BOOT_COMPLETED",
+        "android.permission.WAKE_LOCK",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.ACCESS_BACKGROUND_LOCATION",
+        "android.permission.FOREGROUND_SERVICE",
+        "android.permission.FOREGROUND_SERVICE_LOCATION"
+      ],
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBFfImYMw4uHbtiHQwCJVFD6IusEUtzVZI"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-localization",
+      "expo-build-properties",
+      "expo-font",
+      "expo-router",
+      "expo-secure-store",
+      ["./linking.plugin"],
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Allow $(Game App) to use your location.",
+          "locationAlwaysPermission": "Allow $(Game App) to use your location.",
+          "locationWhenInUsePermission": "Allow $(Game App) to use your location.",
+          "isIosBackgroundLocationEnabled": true,
+          "isAndroidBackgroundLocationEnabled": true
+        }
+      ],
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "enableProguardInReleaseBuilds": true,
+            "enableShrinkResourcesInReleaseBuilds": true,
+            "useLegacyPackaging": true
+          },
+          "ios": {}
+        }
+      ]
+    ],
+    "extra": {
+      "supportsRTL": true,
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "7148b23c-34df-4a2f-968c-6ac3f5534c72"
+      }
+    },
+    "experiments": {
+      "typedRoutes": true
+    },
+    "owner": "brightkingsley"
+  }
+}

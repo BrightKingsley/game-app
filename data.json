@@ -1,0 +1,53 @@
+[
+  {
+    "business_status": "OPERATIONAL",
+    "geometry": "[Object]",
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Deo-Alpha Restaurant",
+    "place_id": "ChIJeSx841_bVBARvVoMnG0vXUw",
+    "rating": 5,
+    "reference": "ChIJeSx841_bVBARvVoMnG0vXUw",
+    "scope": "GOOGLE",
+    "types": "[Array]",
+    "user_ratings_total": 1,
+    "vicinity": "7QCX+28F, Lushi"
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "geometry": "[Object]",
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "Ambassador Bar",
+    "opening_hours": "[Object]",
+    "photos": "[Array]",
+    "place_id": "ChIJBYbxkRbaVBARDd8cxY_kH_E",
+    "price_level": 2,
+    "rating": 3.4,
+    "reference": "ChIJBYbxkRbaVBARDd8cxY_kH_E",
+    "scope": "GOOGLE",
+    "types": "[Array]",
+    "user_ratings_total": 72,
+    "vicinity": "7QCW+RPC, Yelwa tudu road, Ahmadu Bello Way, Lushi"
+  },
+  {
+    "business_status": "OPERATIONAL",
+    "geometry": "[Object]",
+    "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri": "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+    "name": "BeewezFastFood",
+    "opening_hours": "[Object]",
+    "photos": "[Array]",
+    "place_id": "ChIJU7JvSF7bVBARn04UbNBSvwc",
+    "plus_code": "[Object]",
+    "rating": 4.3,
+    "reference": "ChIJU7JvSF7bVBARn04UbNBSvwc",
+    "scope": "GOOGLE",
+    "types": "[Array]",
+    "user_ratings_total": 3,
+    "vicinity": "beside cocin church yalwa tudu, Bauchi"
+  }
+]
